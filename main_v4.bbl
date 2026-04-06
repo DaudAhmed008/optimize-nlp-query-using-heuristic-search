@@ -1,0 +1,133 @@
+\begin{thebibliography}{10}
+
+\bibitem{chen2014bleu_smooth}
+Boxing Chen and Colin Cherry.
+\newblock A systematic comparison of smoothing techniques for sentence-level
+  {BLEU}.
+\newblock In {\em Proceedings of the Ninth Workshop on Statistical Machine
+  Translation}, pages 362--367, 2014.
+
+\bibitem{cho2014rnnencoder}
+Kyunghyun Cho, Bart van Merri{\"e}nboer, {\c{C}}aglar G{\"u}l{\c{c}}ehre,
+  Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio.
+\newblock Learning phrase representations using {RNN} encoder-decoder for
+  statistical machine translation.
+\newblock In {\em Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 1724--1734, 2014.
+
+\bibitem{hart1968astar}
+Peter~E. Hart, Nils~J. Nilsson, and Bertram Raphael.
+\newblock A formal basis for the heuristic determination of minimum cost paths.
+\newblock {\em IEEE Transactions on Systems Science and Cybernetics},
+  4(2):100--107, 1968.
+
+\bibitem{holtzman2020curious}
+Ari Holtzman, Jan Buys, Li~Du, Maxwell Forbes, and Yejin Choi.
+\newblock The curious case of neural text degeneration.
+\newblock In {\em International Conference on Learning Representations (ICLR)},
+  2020.
+\newblock Available at \url{https://arxiv.org/abs/1904.09751}.
+
+\bibitem{kirkpatrick1983annealing}
+Scott Kirkpatrick, C.~Daniel Gelatt, and Mario~P. Vecchi.
+\newblock Optimization by simulated annealing.
+\newblock {\em Science}, 220(4598):671--680, 1983.
+
+\bibitem{lin2004rouge}
+Chin-Yew Lin.
+\newblock {ROUGE}: A package for automatic evaluation of summaries.
+\newblock In {\em Proceedings of the ACL Workshop on Text Summarization
+  Branches Out}, pages 74--81, 2004.
+\newblock Available at \url{https://aclanthology.org/W04-1013/}.
+
+\bibitem{meister2020beam}
+Clara Meister, Tim Vieira, and Ryan Cotterell.
+\newblock If beam search is the answer, what was the question?
+\newblock In {\em Proceedings of the Conference on Empirical Methods in Natural
+  Language Processing (EMNLP)}, pages 2173--2185, 2020.
+
+\bibitem{papineni2002bleu}
+Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu.
+\newblock {BLEU}: A method for automatic evaluation of machine translation.
+\newblock In {\em Proceedings of the 40th Annual Meeting of the Association for
+  Computational Linguistics (ACL)}, pages 311--318, 2002.
+
+\bibitem{radford2019gpt2}
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+  Sutskever.
+\newblock Language models are unsupervised multitask learners.
+\newblock {\em OpenAI Blog}, 1(8):9, 2019.
+\newblock Available at
+  \url{https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf}.
+
+\bibitem{russellnorvig2020ai}
+Stuart Russell and Peter Norvig.
+\newblock {\em Artificial Intelligence: A Modern Approach}.
+\newblock Pearson, 4th edition, 2020.
+
+\bibitem{see2017pointer}
+Abigail See, Peter~J. Liu, and Christopher~D. Manning.
+\newblock Get to the point: Summarization with pointer-generator networks.
+\newblock In {\em Proceedings of the 55th Annual Meeting of the Association for
+  Computational Linguistics (ACL)}, pages 1073--1083, 2017.
+
+\bibitem{su2022contrastive}
+Yixuan Su, Tian Lan, Yan Wang, Dani Yogatama, Lingpeng Kong, and Nigel Collier.
+\newblock A contrastive framework for neural text generation.
+\newblock In {\em Advances in Neural Information Processing Systems (NeurIPS)},
+  2022.
+\newblock Available at \url{https://arxiv.org/abs/2202.06417}.
+
+\bibitem{su2023contrastive_tacl}
+Yixuan Su and Nanyun Peng.
+\newblock Contrastive search is what you need for neural text generation.
+\newblock {\em Transactions of the Association for Computational Linguistics},
+  11:1--17, 2023.
+
+\bibitem{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In {\em Advances in Neural Information Processing Systems (NeurIPS)},
+  pages 5998--6008, 2017.
+\newblock Available at \url{https://arxiv.org/abs/1706.03762}.
+
+\bibitem{vijayakumar2018diverse}
+Ashwin~K. Vijayakumar, Michael Cogswell, Ramprasaath~R. Selvaraju, Qing Sun,
+  Stefan Lee, David Crandall, and Dhruv Batra.
+\newblock Diverse beam search: Decoding diverse solutions from neural sequence
+  models.
+\newblock In {\em Proceedings of the AAAI Conference on Artificial
+  Intelligence}, 2018.
+\newblock Available at \url{https://arxiv.org/abs/1610.02424}.
+
+\bibitem{wolf2020transformers}
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue,
+  Anthony Moi, Pierric Cistac, Tim Rault, R{\'e}mi Louf, Morgan Funtowicz, Joe
+  Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien
+  Plu, Canwen Xu, Teven Le~Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest,
+  and Alexander~M. Rush.
+\newblock Transformers: State-of-the-art natural language processing.
+\newblock In {\em Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing: System Demonstrations}, pages 38--45, 2020.
+
+\bibitem{wu2016gnmt}
+Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc~V. Le, Mohammad Norouzi, Wolfgang
+  Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, Jeff Klingner,
+  Apurva Shah, Melvin Johnson, Xiaobing Liu, {\L}ukasz Kaiser, Stephan Gouws,
+  Yoshikiyo Kato, Taku Kudo, Hideto Kazawa, Keith Stevens, George Kurian,
+  Nishant Patil, Wei Wang, Cliff Young, Jason Smith, Jason Riesa, Alex Rudnick,
+  Oriol Vinyals, Greg Corrado, Macduff Hughes, and Jeffrey Dean.
+\newblock Google's neural machine translation system: Bridging the gap between
+  human and machine translation.
+\newblock {\em arXiv preprint arXiv:1609.08144}, 2016.
+\newblock Available at \url{https://arxiv.org/abs/1609.08144}.
+
+\bibitem{zhang2020bertscore}
+Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian~Q. Weinberger, and Yoav Artzi.
+\newblock {BERTScore}: Evaluating text generation with {BERT}.
+\newblock In {\em International Conference on Learning Representations (ICLR)},
+  2020.
+\newblock Available at \url{https://arxiv.org/abs/1904.09675}.
+
+\end{thebibliography}

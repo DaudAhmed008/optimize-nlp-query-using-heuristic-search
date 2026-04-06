@@ -1,0 +1,95 @@
+# Heuristic Search Algorithms to Optimize NLP Query
+
+**Author:** Daud Ahmed (202402480)  
+**Course:** CSCI 564 – Processing & Heuristic Search  
+**Instructor:** Dr. Hao Cai  
+**Institution:** St. Francis Xavier University
+
+## Overview
+
+This project compares six decoding algorithms for GPT-2 text generation, evaluating how different search strategies affect output quality, length, and speed when the underlying language model is held constant.
+
+### Algorithms
+
+| Algorithm | Type | Deterministic |
+|---|---|---|
+| Greedy Search | Baseline – always picks the top token | Yes |
+| Beam Search | Multi-path search (5 beams, no-repeat bigram) | Yes |
+| Hill Climbing | Iterative refinement over a Greedy seed | Yes |
+| A* Search | Global priority queue with length-normalised heuristic | Yes |
+| Contrastive Search | Penalises semantic repetition via cosine similarity | Yes |
+| Simulated Annealing | Temperature-scheduled stochastic sampling | No |
+
+### Evaluation Metrics
+
+- **BLEU** (n-gram precision)
+- **BERTScore** (semantic similarity via RoBERTa-large)
+- **ROUGE-1** (unigram recall)
+- Execution time and output length
+
+## Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/DaudAhmed008/optimize-nlp-query-using-heuristic-search.git
+cd optimize-nlp-query-using-heuristic-search
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+**Requirements:** Python 3.10+. A GPU is not required but will speed up execution. The GPT-2 base model (~500 MB) is downloaded automatically on first run.
+
+## Usage
+
+```bash
+python main.py
+```
+
+The script runs all six algorithms on three prompts, prints detailed results to the terminal, and saves six PNG chart files to the working directory:
+
+- `result_bleu.png` – BLEU scores per algorithm per prompt
+- `result_bert.png` – BERTScore (F1) per algorithm per prompt
+- `result_rouge.png` – ROUGE-1 scores per algorithm per prompt
+- `result_time.png` – Execution time comparison
+- `result_length.png` – Generated text length comparison
+- `result_avg_summary.png` – Average scores across all prompts
+
+## Project Structure
+
+```
+├── main.py                  # All algorithm implementations + evaluation + plotting
+├── main_v4.tex              # LaTeX source for the report
+├── references_v4.bib        # BibTeX references
+├── main_v4.pdf              # Compiled report (PDF)
+├── requirements.txt         # Python dependencies
+├── STFX_Logo.png            # University logo for the report title page
+├── all_outputs.txt          # Raw generated text from all algorithms
+├── result_bleu.png          # BLEU score chart
+├── result_bert.png          # BERTScore chart
+├── result_rouge.png         # ROUGE-1 chart
+├── result_time.png          # Execution time chart
+├── result_length.png        # Text length chart
+└── result_avg_summary.png   # Average scores summary chart
+```
+
+## Key Findings
+
+1. **A\* Search** scores highest on all quality metrics but generates only 7–13 words due to a persistent short-output bias in the heuristic.
+2. **Beam Search** is the best practical algorithm: second on quality, fastest (2s average), and produces complete outputs.
+3. **Hill Climbing** yields a null result – identical output to Greedy Search across all prompts while taking 16x longer.
+4. **Contrastive Search** ties Beam Search on BERTScore and produces the most topically diverse output.
+5. **Simulated Annealing** generates the longest, most varied text but scores lowest on reference-based metrics.
+
+## References
+
+See `references_v4.bib` for the full bibliography. Key papers:
+
+- Radford et al. (2019) – GPT-2
+- Su et al. (2022) – Contrastive Search (NeurIPS)
+- Hart et al. (1968) – A* Search
+- Holtzman et al. (2020) – Neural Text Degeneration
+
+## License
+
+This project was developed for academic coursework at St. Francis Xavier University.

@@ -1,0 +1,6 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces BLEU scores across all six algorithms and three prompts.}}{21}{figure.caption.5}%
+\contentsline {figure}{\numberline {2}{\ignorespaces BERTScore (F1) across all six algorithms and three prompts.}}{22}{figure.caption.7}%
+\contentsline {figure}{\numberline {3}{\ignorespaces ROUGE-1 scores across all six algorithms and three prompts.}}{23}{figure.caption.9}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Execution time (seconds) across all six algorithms and three prompts.}}{24}{figure.caption.11}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Generated text length (words) across all six algorithms and three prompts.}}{25}{figure.caption.13}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Average BLEU, BERTScore, and ROUGE-1 across all three prompts.}}{26}{figure.caption.15}%
