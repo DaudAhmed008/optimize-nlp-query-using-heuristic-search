@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.28)  4 APR 2026 23:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.28)  5 APR 2026 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1366,7 +1366,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (C:\Users\Doud Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.c
 fg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [1
+)
+Overfull \hbox (12.30733pt too wide) in paragraph at lines 118--123
+ [][] 
+ []
+
+[1
 
 {C:/Users/Doud Ahmed/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./STFX_
 Logo.png>] (main_v4.toc
@@ -1391,104 +1396,104 @@ l.42 ...}Evaluation Framework}{19}{subsection.4.4}
  [3] [4] [5] [6] [7] [8]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 260.
+(hyperref)                removing `math shift' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 260.
+(hyperref)                removing `superscript' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 260.
+(hyperref)                removing `math shift' on input line 261.
 
 [9] [10] [11] [12] [13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 466--466
+Underfull \hbox (badness 10000) in paragraph at lines 467--467
 []|\OT1/cmr/m/n/10.95 (+20) ...it threat-ens ecosys-tems,
  []
 
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 476.
+put line 477.
 [15]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 537.
+(hyperref)                removing `math shift' on input line 538.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 537.
+(hyperref)                removing `superscript' on input line 538.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 537.
+(hyperref)                removing `math shift' on input line 538.
 
 [16] [17]
-Overfull \hbox (20.55293pt too wide) in paragraph at lines 599--600
+Overfull \hbox (20.55293pt too wide) in paragraph at lines 600--601
 \OT1/cmr/m/n/12 (-20) The em-bed-ding ma-trix \OT1/cmtt/m/n/12 wte \OT1/cmr/m/n
 /12 (-20) is GPT-2's word-token em-bed-ding layer (\OT1/cmtt/m/n/12 model.trans
 former.wte\OT1/cmr/m/n/12 (-20) ).
  []
 
 [18]
-Underfull \hbox (badness 1708) in paragraph at lines 659--659
+Underfull \hbox (badness 1708) in paragraph at lines 660--660
 []|\OT1/cmr/m/n/10.95 (+20) Prevents im-me-di-ate bi-gram rep-e-ti-tion
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 659--659
+Underfull \hbox (badness 1028) in paragraph at lines 660--660
 []|\OT1/cmr/m/n/10.95 (+20) Sufficient to flat-ten dis-tri-bu-tion early;
  []
 
 [19]
-<result_bleu.png, id=545, 1293.1512pt x 372.4314pt>
+<result_bleu.png, id=546, 1293.1512pt x 372.4314pt>
 File: result_bleu.png Graphic file (type png)
 <use result_bleu.png>
-Package pdftex.def Info: result_bleu.png  used on input line 702.
+Package pdftex.def Info: result_bleu.png  used on input line 703.
 (pdftex.def)             Requested size: 452.9679pt x 130.45523pt.
  [20] [21 <./result_bleu.png>]
-<result_bert.png, id=558, 1293.1512pt x 372.4314pt>
+<result_bert.png, id=559, 1293.1512pt x 372.4314pt>
 File: result_bert.png Graphic file (type png)
 <use result_bert.png>
-Package pdftex.def Info: result_bert.png  used on input line 747.
+Package pdftex.def Info: result_bert.png  used on input line 748.
 (pdftex.def)             Requested size: 452.9679pt x 130.45523pt.
  [22 <./result_bert.png>]
-<result_rouge.png, id=564, 1293.1512pt x 372.4314pt>
+<result_rouge.png, id=565, 1293.1512pt x 372.4314pt>
 File: result_rouge.png Graphic file (type png)
 <use result_rouge.png>
-Package pdftex.def Info: result_rouge.png  used on input line 785.
+Package pdftex.def Info: result_rouge.png  used on input line 786.
 (pdftex.def)             Requested size: 452.9679pt x 130.45523pt.
  [23 <./result_rouge.png>]
-<result_time.png, id=570, 860.013pt x 352.6776pt>
+<result_time.png, id=571, 860.013pt x 352.6776pt>
 File: result_time.png Graphic file (type png)
 <use result_time.png>
-Package pdftex.def Info: result_time.png  used on input line 823.
+Package pdftex.def Info: result_time.png  used on input line 824.
 (pdftex.def)             Requested size: 452.9679pt x 185.75584pt.
  [24 <./result_time.png>]
-<result_length.png, id=577, 860.013pt x 352.6776pt>
+<result_length.png, id=578, 860.013pt x 352.6776pt>
 File: result_length.png Graphic file (type png)
 <use result_length.png>
-Package pdftex.def Info: result_length.png  used on input line 863.
+Package pdftex.def Info: result_length.png  used on input line 864.
 (pdftex.def)             Requested size: 452.9679pt x 185.75584pt.
  [25 <./result_length.png>]
-<result_avg_summary.png, id=583, 1076.3412pt x 357.9774pt>
+<result_avg_summary.png, id=584, 1076.3412pt x 357.9774pt>
 File: result_avg_summary.png Graphic file (type png)
 <use result_avg_summary.png>
-Package pdftex.def Info: result_avg_summary.png  used on input line 900.
+Package pdftex.def Info: result_avg_summary.png  used on input line 901.
 (pdftex.def)             Requested size: 452.9679pt x 150.6499pt.
  [26 <./result_avg_summary.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 916.
+(hyperref)                removing `math shift' on input line 917.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 916.
+(hyperref)                removing `superscript' on input line 917.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 916.
+(hyperref)                removing `math shift' on input line 917.
 
-[27] [28] [29] [30] [31] [32] [33] [34] [35] (main_v4.bbl [36] [37]) [38]
-(main_v4.aux)
+[27] [28] [29] [30] [31] [32] [33] [34] [35] [36] (main_v4.bbl [37] [38])
+[39] (main_v4.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1497,11 +1502,11 @@ Package rerunfilecheck Info: File `main_v4.out' has not changed.
 (rerunfilecheck)             Checksum: E16BBC66834D119F52EABAE823036C16;11225.
  ) 
 Here is how much of TeX's memory you used:
- 41456 strings out of 467871
- 933810 string characters out of 5415920
+ 41452 strings out of 467871
+ 933718 string characters out of 5415920
  1452745 words of memory out of 5000000
- 69289 multiletter control sequences out of 15000+600000
- 650051 words of font info for 223 fonts, out of 8000000 for 9000
+ 69286 multiletter control sequences out of 15000+600000
+ 649992 words of font info for 222 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,94p,1198b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Doud Ahmed\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
@@ -1529,9 +1534,9 @@ b><C:/Users/Doud Ahmed/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmti12.pfb><C:/Users/Doud Ahmed/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmtt12.pfb><C:/Users/Doud Ahmed/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main_v4.pdf (39 pages, 950671 bytes).
+Output written on main_v4.pdf (40 pages, 957705 bytes).
 PDF statistics:
- 788 PDF objects out of 1000 (max. 8388607)
- 164 named destinations out of 1000 (max. 500000)
+ 794 PDF objects out of 1000 (max. 8388607)
+ 165 named destinations out of 1000 (max. 500000)
  50200 words of extra memory for PDF output out of 51595 (max. 10000000)
 
