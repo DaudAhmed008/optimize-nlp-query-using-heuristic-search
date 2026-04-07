@@ -1,0 +1,10 @@
+\contentsline {table}{\numberline {1}{\ignorespaces Comparison of Evaluation Metrics}}{12}{table.caption.1}%
+\contentsline {table}{\numberline {2}{\ignorespaces Evaluation prompts, reference sentences, and domain descriptions.}}{16}{table.caption.2}%
+\contentsline {table}{\numberline {3}{\ignorespaces Algorithm parameters and justification for each choice.}}{23}{table.caption.3}%
+\contentsline {table}{\numberline {4}{\ignorespaces Average results across all six prompts. Bold = best per metric.}}{24}{table.caption.4}%
+\contentsline {table}{\numberline {5}{\ignorespaces Average BLEU scores across all six prompts}}{26}{table.caption.6}%
+\contentsline {table}{\numberline {6}{\ignorespaces Average BERTScore (F1) across all six prompts}}{28}{table.caption.8}%
+\contentsline {table}{\numberline {7}{\ignorespaces Average ROUGE-1 scores across all six prompts}}{30}{table.caption.10}%
+\contentsline {table}{\numberline {8}{\ignorespaces Average execution time (seconds) across all six prompts}}{31}{table.caption.12}%
+\contentsline {table}{\numberline {9}{\ignorespaces Average generated text length (words) across all six prompts}}{32}{table.caption.14}%
+\contentsline {table}{\numberline {10}{\ignorespaces Comprehensive cross-algorithm comparison}}{36}{table.caption.16}%

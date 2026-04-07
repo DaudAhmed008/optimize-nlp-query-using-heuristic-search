@@ -1,0 +1,245 @@
+\relax 
+\providecommand\zref@newlabel[2]{}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{radford2019gpt2}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{4}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Background and Motivation}{4}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}What Was Added in Version 3.0}{4}{subsection.1.2}\protected@file@percent }
+\citation{su2022contrastive}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Why These Seven Algorithms?}{5}{subsection.1.3}\protected@file@percent }
+\citation{radford2019gpt2}
+\citation{vaswani2017attention}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Structure of the Report}{6}{subsection.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Literature Review}{6}{section.2}\protected@file@percent }
+\newlabel{sec:litreview}{{2}{6}{Literature Review}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}The Text Generation Problem}{6}{subsection.2.1}\protected@file@percent }
+\newlabel{eq:argmax}{{1}{6}{The Text Generation Problem}{equation.1}{}}
+\citation{holtzman2020curious}
+\citation{russellnorvig2020ai}
+\citation{hart1968astar}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}GPT-2: Architecture and Properties}{7}{subsection.2.2}\protected@file@percent }
+\newlabel{eq:softmax}{{2}{7}{GPT-2: Architecture and Properties}{equation.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Heuristic Search in AI and NLP}{7}{subsection.2.3}\protected@file@percent }
+\citation{russellnorvig2020ai}
+\citation{cho2014rnnencoder,see2017pointer}
+\citation{meister2020beam}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Decoding Algorithms: Detailed Review}{8}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.1}Greedy Search}{8}{subsubsection.2.4.1}\protected@file@percent }
+\newlabel{sec:greedy_theory}{{2.4.1}{8}{Greedy Search}{subsubsection.2.4.1}{}}
+\newlabel{eq:greedy}{{3}{8}{Greedy Search}{equation.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.2}Beam Search}{8}{subsubsection.2.4.2}\protected@file@percent }
+\newlabel{sec:beam_theory}{{2.4.2}{8}{Beam Search}{subsubsection.2.4.2}{}}
+\newlabel{eq:beam_score}{{4}{8}{Beam Search}{equation.4}{}}
+\citation{hart1968astar}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.3}Hill Climbing Search}{9}{subsubsection.2.4.3}\protected@file@percent }
+\newlabel{sec:hillclimb_theory}{{2.4.3}{9}{Hill Climbing Search}{subsubsection.2.4.3}{}}
+\newlabel{eq:hill_quality}{{5}{9}{Hill Climbing Search}{equation.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.4}A* Search}{9}{subsubsection.2.4.4}\protected@file@percent }
+\newlabel{sec:astar_theory}{{2.4.4}{9}{A* Search}{subsubsection.2.4.4}{}}
+\newlabel{eq:astar_f}{{6}{9}{A* Search}{equation.6}{}}
+\citation{wu2016gnmt}
+\citation{su2022contrastive}
+\citation{su2023contrastive_tacl}
+\citation{kirkpatrick1983annealing}
+\@writefile{toc}{\contentsline {paragraph}{The heuristic function.}{10}{equation.6}\protected@file@percent }
+\newlabel{eq:heuristic}{{7}{10}{The heuristic function}{equation.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.5}Contrastive Search}{10}{subsubsection.2.4.5}\protected@file@percent }
+\newlabel{sec:contrastive_theory}{{2.4.5}{10}{Contrastive Search}{subsubsection.2.4.5}{}}
+\newlabel{eq:contrastive}{{8}{10}{Contrastive Search}{equation.8}{}}
+\citation{papineni2002bleu}
+\citation{chen2014bleu_smooth}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.6}Simulated Annealing}{11}{subsubsection.2.4.6}\protected@file@percent }
+\newlabel{sec:sa_theory}{{2.4.6}{11}{Simulated Annealing}{subsubsection.2.4.6}{}}
+\newlabel{eq:sa_prob}{{9}{11}{Simulated Annealing}{equation.9}{}}
+\newlabel{eq:cooling}{{10}{11}{Simulated Annealing}{equation.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Evaluation Metrics}{11}{subsection.2.5}\protected@file@percent }
+\newlabel{sec:metrics}{{2.5}{11}{Evaluation Metrics}{subsection.2.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.1}BLEU Score}{11}{subsubsection.2.5.1}\protected@file@percent }
+\newlabel{eq:bleu}{{11}{11}{BLEU Score}{equation.11}{}}
+\citation{lin2004rouge}
+\citation{zhang2020bertscore}
+\citation{vijayakumar2018diverse}
+\citation{meister2020beam}
+\citation{holtzman2020curious}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.2}ROUGE-1 Score}{12}{subsubsection.2.5.2}\protected@file@percent }
+\newlabel{eq:rouge}{{12}{12}{ROUGE-1 Score}{equation.12}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.3}BERTScore}{12}{subsubsection.2.5.3}\protected@file@percent }
+\newlabel{eq:bertscore}{{13}{12}{BERTScore}{equation.13}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Comparison of Evaluation Metrics}}{12}{table.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:metrics_compare}{{1}{12}{Comparison of Evaluation Metrics}{table.caption.1}{}}
+\citation{su2022contrastive,su2023contrastive_tacl}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Related Work on Decoding Strategies}{13}{subsection.2.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Problem Statement}{13}{section.3}\protected@file@percent }
+\newlabel{sec:problem}{{3}{13}{Problem Statement}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Research Questions}{13}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Research Objectives}{13}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Experimental Challenges}{14}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Exponential state space.}{14}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Metric-length interaction.}{14}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Single reference evaluation.}{14}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Non-determinism in Simulated Annealing.}{14}{subsection.3.3}\protected@file@percent }
+\citation{wolf2020transformers}
+\@writefile{toc}{\contentsline {paragraph}{Hill Climbing as a dependent algorithm.}{15}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Proposed Methodology}{15}{section.4}\protected@file@percent }
+\newlabel{sec:method}{{4}{15}{Proposed Methodology}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Experimental Setup}{15}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Prompts and Reference Sentences}{15}{subsection.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Evaluation prompts, reference sentences, and domain descriptions.}}{16}{table.caption.2}\protected@file@percent }
+\newlabel{tab:prompts}{{2}{16}{Evaluation prompts, reference sentences, and domain descriptions}{table.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Algorithm Implementations}{17}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1}Greedy Search Implementation}{17}{subsubsection.4.3.1}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Greedy Search}}{17}{algorithm.1}\protected@file@percent }
+\newlabel{alg:greedy}{{1}{17}{Greedy Search}{algorithm.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2}Beam Search Implementation}{17}{subsubsection.4.3.2}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces Beam Search (via HuggingFace \texttt  {model.generate()})}}{17}{algorithm.2}\protected@file@percent }
+\newlabel{alg:beam}{{2}{17}{Beam Search (via HuggingFace \texttt {model.generate()})}{algorithm.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3}BFS (Breadth-First Search) Implementation}{18}{subsubsection.4.3.3}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces Breadth-First Search (depth-limited)}}{18}{algorithm.3}\protected@file@percent }
+\newlabel{alg:bfs}{{3}{18}{Breadth-First Search (depth-limited)}{algorithm.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.4}Hill Climbing Implementation (Improved)}{19}{subsubsection.4.3.4}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {4}{\ignorespaces Hill Climbing Search (Version 3.0)}}{19}{algorithm.4}\protected@file@percent }
+\newlabel{alg:hillclimb}{{4}{19}{Hill Climbing Search (Version 3.0)}{algorithm.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5}A* Search Implementation (Improved)}{20}{subsubsection.4.3.5}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {5}{\ignorespaces Improved A$^*$ Search (Version 3.0)}}{20}{algorithm.5}\protected@file@percent }
+\newlabel{alg:astar}{{5}{20}{Improved A$^*$ Search (Version 3.0)}{algorithm.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.6}Contrastive Search Implementation}{21}{subsubsection.4.3.6}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {6}{\ignorespaces Contrastive Search}}{21}{algorithm.6}\protected@file@percent }
+\newlabel{alg:contrastive}{{6}{21}{Contrastive Search}{algorithm.6}{}}
+\citation{chen2014bleu_smooth}
+\citation{su2022contrastive}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.7}Simulated Annealing Implementation}{22}{subsubsection.4.3.7}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {7}{\ignorespaces Simulated Annealing Search}}{22}{algorithm.7}\protected@file@percent }
+\newlabel{alg:sa}{{7}{22}{Simulated Annealing Search}{algorithm.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Evaluation Framework}{22}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{BLEU.}{22}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{BERTScore.}{22}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{ROUGE-1.}{22}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Execution time.}{22}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Generated text length.}{22}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Parameter Justification}{23}{subsection.4.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Algorithm parameters and justification for each choice.}}{23}{table.caption.3}\protected@file@percent }
+\newlabel{tab:params}{{3}{23}{Algorithm parameters and justification for each choice}{table.caption.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results and Analysis}{24}{section.5}\protected@file@percent }
+\newlabel{sec:results}{{5}{24}{Results and Analysis}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Master Summary}{24}{subsection.5.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Average results across all six prompts. Bold = best per metric.}}{24}{table.caption.4}\protected@file@percent }
+\newlabel{tab:master}{{4}{24}{Average results across all six prompts. Bold = best per metric}{table.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}BLEU Score Analysis}{25}{subsection.5.2}\protected@file@percent }
+\newlabel{sec:bleu}{{5.2}{25}{BLEU Score Analysis}{subsection.5.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces BLEU scores across all seven algorithms and six prompts.}}{25}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:bleu_all}{{1}{25}{BLEU scores across all seven algorithms and six prompts}{figure.caption.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Average BLEU scores across all six prompts}}{26}{table.caption.6}\protected@file@percent }
+\newlabel{tab:bleu_boxed}{{5}{26}{Average BLEU scores across all six prompts}{table.caption.6}{}}
+\@writefile{toc}{\contentsline {paragraph}{A$^*$ dominates, but output length is the main driver.}{26}{table.caption.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Beam Search is a solid second.}{26}{table.caption.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Hill Climbing matches Greedy exactly.}{26}{table.caption.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Simulated Annealing scores lowest.}{26}{table.caption.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}BERTScore Analysis}{27}{subsection.5.3}\protected@file@percent }
+\newlabel{sec:bert}{{5.3}{27}{BERTScore Analysis}{subsection.5.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces BERTScore (F1) across all seven algorithms and six prompts.}}{27}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:bert_all}{{2}{27}{BERTScore (F1) across all seven algorithms and six prompts}{figure.caption.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Average BERTScore (F1) across all six prompts}}{28}{table.caption.8}\protected@file@percent }
+\newlabel{tab:bert_boxed}{{6}{28}{Average BERTScore (F1) across all six prompts}{table.caption.8}{}}
+\@writefile{toc}{\contentsline {paragraph}{A$^*$ leads by 0.061 over second place.}{28}{table.caption.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Beam Search and Contrastive Search are close.}{28}{table.caption.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Greedy and Hill Climbing are again tied.}{28}{table.caption.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}ROUGE-1 Score Analysis}{29}{subsection.5.4}\protected@file@percent }
+\newlabel{sec:rouge}{{5.4}{29}{ROUGE-1 Score Analysis}{subsection.5.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces ROUGE-1 scores across all seven algorithms and six prompts.}}{29}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:rouge_all}{{3}{29}{ROUGE-1 scores across all seven algorithms and six prompts}{figure.caption.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Average ROUGE-1 scores across all six prompts}}{30}{table.caption.10}\protected@file@percent }
+\newlabel{tab:rouge_boxed}{{7}{30}{Average ROUGE-1 scores across all six prompts}{table.caption.10}{}}
+\@writefile{toc}{\contentsline {paragraph}{A$^*$ achieves high recall from outputs under 15 words.}{30}{table.caption.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Beam Search holds second with a clear margin over BFS.}{30}{table.caption.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Hill Climbing and Greedy tie across all six prompts.}{30}{table.caption.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Execution Time Analysis}{30}{subsection.5.5}\protected@file@percent }
+\newlabel{sec:time}{{5.5}{30}{Execution Time Analysis}{subsection.5.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Execution time (seconds) across all seven algorithms and six prompts.}}{30}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:time_all}{{4}{30}{Execution time (seconds) across all seven algorithms and six prompts}{figure.caption.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Average execution time (seconds) across all six prompts}}{31}{table.caption.12}\protected@file@percent }
+\newlabel{tab:time_boxed}{{8}{31}{Average execution time (seconds) across all six prompts}{table.caption.12}{}}
+\@writefile{toc}{\contentsline {paragraph}{Beam Search is the fastest at $\sim $3 seconds on average.}{31}{table.caption.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Hill Climbing peaks at 200 seconds on P4 (Space Exploration).}{31}{table.caption.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{A$^*$ at $\sim $71 seconds is explainable but expensive.}{31}{table.caption.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Contrastive Search at $\sim $19 seconds matches Greedy's speed.}{31}{table.caption.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Generated Text Length Analysis}{32}{subsection.5.6}\protected@file@percent }
+\newlabel{sec:length}{{5.6}{32}{Generated Text Length Analysis}{subsection.5.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Generated text length (words) across all seven algorithms and six prompts.}}{32}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:length_all}{{5}{32}{Generated text length (words) across all seven algorithms and six prompts}{figure.caption.13}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Average generated text length (words) across all six prompts}}{32}{table.caption.14}\protected@file@percent }
+\newlabel{tab:length_boxed}{{9}{32}{Average generated text length (words) across all six prompts}{table.caption.14}{}}
+\@writefile{toc}{\contentsline {paragraph}{A$^*$'s improved heuristic helped, but did not solve the problem.}{32}{table.caption.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Hill Climbing lengths equal Greedy lengths exactly.}{32}{table.caption.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Simulated Annealing generates the longest outputs.}{32}{table.caption.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7}Average Scores and Cross-Prompt Consistency}{33}{subsection.5.7}\protected@file@percent }
+\newlabel{sec:avg}{{5.7}{33}{Average Scores and Cross-Prompt Consistency}{subsection.5.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Average BLEU, BERTScore, and ROUGE-1 across all six prompts.}}{33}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:avg_summary}{{6}{33}{Average BLEU, BERTScore, and ROUGE-1 across all six prompts}{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion}{33}{section.6}\protected@file@percent }
+\newlabel{sec:discussion}{{6}{33}{Discussion}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}The A* Paradox: Dominant Scores from 10-Word Outputs}{33}{subsection.6.1}\protected@file@percent }
+\newlabel{sec:astar_paradox}{{6.1}{33}{The A* Paradox: Dominant Scores from 10-Word Outputs}{subsection.6.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Hill Climbing: Why the Null Result Persists}{34}{subsection.6.2}\protected@file@percent }
+\newlabel{sec:hillclimb_discussion}{{6.2}{34}{Hill Climbing: Why the Null Result Persists}{subsection.6.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Beam Search as the Production Default}{34}{subsection.6.3}\protected@file@percent }
+\newlabel{sec:beam_discussion}{{6.3}{34}{Beam Search as the Production Default}{subsection.6.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}BFS: A Classical Search Baseline}{35}{subsection.6.4}\protected@file@percent }
+\newlabel{sec:bfs_discussion}{{6.4}{35}{BFS: A Classical Search Baseline}{subsection.6.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Contrastive Search: A Practical Alternative}{35}{subsection.6.5}\protected@file@percent }
+\newlabel{sec:contrastive_discussion}{{6.5}{35}{Contrastive Search: A Practical Alternative}{subsection.6.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.6}Simulated Annealing: Creative but Imprecise}{35}{subsection.6.6}\protected@file@percent }
+\newlabel{sec:sa_discussion}{{6.6}{35}{Simulated Annealing: Creative but Imprecise}{subsection.6.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.7}Cross-Algorithm Comparison: A Unified View}{36}{subsection.6.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Comprehensive cross-algorithm comparison}}{36}{table.caption.16}\protected@file@percent }
+\newlabel{tab:comparison_boxed}{{10}{36}{Comprehensive cross-algorithm comparison}{table.caption.16}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Threats to Validity}{36}{section.7}\protected@file@percent }
+\newlabel{sec:threats}{{7}{36}{Threats to Validity}{section.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Internal Validity}{36}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Single-run results for Simulated Annealing.}{36}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Hill Climbing parameter sensitivity.}{36}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{A$^*$'s length penalty parameter.}{37}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}External Validity}{37}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Six prompts across six domains.}{37}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{GPT-2 is not a current model.}{37}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Single reference sentences.}{37}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Construct Validity}{37}{subsection.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Metric-length interaction.}{37}{subsection.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Execution time on a single machine.}{37}{subsection.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion and Future Work}{37}{section.8}\protected@file@percent }
+\newlabel{sec:conclusion}{{8}{37}{Conclusion and Future Work}{section.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Summary of Findings}{37}{subsection.8.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Recommendations for Future Research}{38}{subsection.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{1. Improve the A$^*$ heuristic further.}{38}{subsection.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{2. Improve Hill Climbing beyond multi-token substitution.}{38}{subsection.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{3. Improve BFS with anti-repetition constraints.}{39}{subsection.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{4. Expand and diversify the prompt set further.}{39}{subsection.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{5. Test on larger models.}{39}{subsection.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{6. Human evaluation study.}{39}{subsection.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {A}Generated Outputs}{40}{appendix.A}\protected@file@percent }
+\newlabel{app:outputs}{{A}{40}{Generated Outputs}{appendix.A}{}}
+\citation{holtzman2020curious}
+\bibstyle{plain}
+\bibdata{references}
+\bibcite{chen2014bleu_smooth}{1}
+\bibcite{cho2014rnnencoder}{2}
+\bibcite{hart1968astar}{3}
+\bibcite{holtzman2020curious}{4}
+\bibcite{kirkpatrick1983annealing}{5}
+\bibcite{lin2004rouge}{6}
+\bibcite{meister2020beam}{7}
+\bibcite{papineni2002bleu}{8}
+\bibcite{radford2019gpt2}{9}
+\bibcite{russellnorvig2020ai}{10}
+\bibcite{see2017pointer}{11}
+\@writefile{toc}{\contentsline {section}{References}{46}{appendix.A}\protected@file@percent }
+\bibcite{su2022contrastive}{12}
+\bibcite{su2023contrastive_tacl}{13}
+\bibcite{vaswani2017attention}{14}
+\bibcite{vijayakumar2018diverse}{15}
+\bibcite{wolf2020transformers}{16}
+\bibcite{wu2016gnmt}{17}
+\bibcite{zhang2020bertscore}{18}
+\gdef \@abspage@last{49}
